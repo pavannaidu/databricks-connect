@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=bundle_config_schema.json
+
+bundle:
+  name: spaceflights
+
+resources:
+  jobs:
+    spaceflights-job:
+      name: spaceflights-job
+      tasks:
+        - task_key: spaceflights-task
+          existing_cluster_id: 0819-144304-z2g7w16n
+          notebook_task:
+            notebook_path: ./run.py
+
+targets:
+  dev:
+    default: true
