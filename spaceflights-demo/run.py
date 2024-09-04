@@ -5,6 +5,9 @@
 %load_ext kedro.ipython
 
 # COMMAND ----------
+# pwd
+
+# COMMAND ----------
 %reload_kedro --env=databricks
 
 # COMMAND ----------
