@@ -1,0 +1,3 @@
+server:
+  mlflow_tracking_uri: databricks # if null, will use mlflow.get_tracking_uri() as a default
+  mlflow_registry_uri: databricks-uc # if null, mlflow_tracking_uri will be used as mlflow default

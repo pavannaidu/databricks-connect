@@ -13,3 +13,4 @@ ruff~=0.1.8
 scikit-learn~=1.5.1; python_version >= "3.9"
 scikit-learn<=1.4.0,>=1.0; python_version < "3.9"
 seaborn~=0.12.1
+mlflow~=2.16.0
